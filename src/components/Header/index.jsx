@@ -10,7 +10,7 @@ const Header = () => {
           <Menulink to={"/"}>Home</Menulink>
         </li>
         <li>
-          <Menulink to={"/home"}>Home</Menulink>
+          <Menulink to={"/about"}>About</Menulink>
         </li>
       </ul>
     </header>
