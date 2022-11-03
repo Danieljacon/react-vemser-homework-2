@@ -4,11 +4,14 @@
     text-transform: uppercase;
     padding: 2px 5px;
     transition: .2s ease-in-out;
-    color: black;
+    color: var(--primary);
+    font-weight: 600;
 }
 
 .menuLink-active {
-    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--primary);
+    border-bottom: 5px solid var(--primary);
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--secondary);
+    color: var(--primary);
 }

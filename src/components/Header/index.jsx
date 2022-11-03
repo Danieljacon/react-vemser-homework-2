@@ -4,11 +4,13 @@ import style from "./style.css";
 
 const Header = () => {
   return (
-    <header>
-      <ul>
+    <header className="header">
+      <ul className="menu-container">
         <li>
-            <Menulink to={"/"}>Home</Menulink>
-            <Menulink to={"/home"}>Home</Menulink>
+          <Menulink to={"/"}>Home</Menulink>
+        </li>
+        <li>
+          <Menulink to={"/home"}>Home</Menulink>
         </li>
       </ul>
     </header>
