@@ -10,7 +10,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Header />
-      <AppRoutes />
+      <div className="container">
+        <AppRoutes />
+      </div>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -2,6 +2,9 @@
   --primary: #264653;
   --secondary: #2a9d8f;
   --white: #FFFFFF;
+  --bege: #CDE8E5;
+
+  --box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.3);
 }
 
 * {
@@ -17,9 +20,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bege);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  max-width: 1045px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  margin-top: 15px;
+  background-color: var(--secondary);
+  border-radius: 5px;
+  color: var(--bege);
 }
