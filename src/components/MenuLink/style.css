@@ -12,6 +12,6 @@
     border: 2px solid var(--primary);
     border-bottom: 5px solid var(--primary);
     border-radius: 5px;
-    background-color: var(--secondary);
     color: var(--primary);
+    background: var(--white);
 }

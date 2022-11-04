@@ -1,5 +1,5 @@
 import React from "react";
-import Menulink from "../../pages/MenuLink";
+import Menulink from "../MenuLink";
 import style from "./style.css";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
           <Menulink to={"/"}>Home</Menulink>
         </li>
         <li>
-          <Menulink to={"/Episodes"}>About</Menulink>
+          <Menulink to={"/episodes"}>Episodes</Menulink>
         </li>
       </ul>
     </header>
