@@ -36,4 +36,5 @@ code {
   background-color: var(--secondary);
   border-radius: 5px;
   color: var(--bege);
+  border-top: 4px solid var(--primary);
 }
